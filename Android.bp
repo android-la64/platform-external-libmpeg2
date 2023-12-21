@@ -146,6 +146,15 @@ cc_library_static {
             ],
         },
 
+        loongarch64: {
+            local_include_dirs: ["common/loongarch"],
+
+            srcs: [
+                "decoder/loongarch/impeg2d_function_selector.c",
+                "common/loongarch/ideint_function_selector.c",
+            ],
+        },
+
         x86: {
             cflags: [
                 "-DX86",
