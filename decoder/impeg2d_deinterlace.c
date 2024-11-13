@@ -67,6 +67,7 @@ static const arch_map_t gas_impeg2d_arch_mapping[] =
     {ARCH_MIPS_GENERIC,     ICV_MIPS_GENERIC},
     {ARCH_MIPS_32,          ICV_MIPS_32},
     {ARCH_RISCV_GENERIC,    ICV_RISCV_GENERIC},
+    {ARCH_LOONGARCH_GENERIC, ICV_LOONGARCH_GENERIC},
 };
 
 

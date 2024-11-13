@@ -78,6 +78,7 @@ typedef enum
     ICV_MIPS_GENERIC        = 0x2000,
     ICV_MIPS_32,
     ICV_RISCV_GENERIC       = 0x3000,
+    ICV_LOONGARCH_GENERIC   = 0x4000,
 }ICV_ARCH_T;
 
 /** SOC Enumeration                               */

@@ -133,6 +133,17 @@ cc_library_static {
             ],
         },
 
+        loongarch64: {
+            local_include_dirs: [
+                "common/loongarch",
+            ],
+
+            srcs: [
+                "common/loongarch/ideint_function_selector.c",
+                "decoder/loongarch/impeg2d_function_selector.c",
+            ],
+        },
+
         riscv64: {
             local_include_dirs: [
                 "common/riscv",
